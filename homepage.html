@@ -8,18 +8,59 @@
     .header{
         background: #13B8CE;
         text-align: center;
+
+        width: 337px;
+        height: 67px;
+
+        font-family: Cabin VF Beta;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    #background_header{
+        position: absolute;
+        width: 1440px;
+        height: 67px;
+        left: 0px;
+        top: 57px;
+
+        background: #C4C4C4;
     }
 
     #static{
         position: absolute;
-        width: 337px;
-        height: 67px;
         left: 73px;
+        top: 57px;
+
+        
+    }
+
+    #notifications{
+        position: absolute;
+        left: 553px;
+        top: 57px;
+    }
+
+    #raven{
+        position: absolute;
+        left: 1035px;
         top: 57px;
     }
 </style>
 
     <body>
-        <div class="header" id="static"></div>
+        <div id="background_header"></div>
+        <div class="header" id="static">Static Map</div>
+        <div class="header" id="notifications">Notifications</div>
+        <div class="header" id="raven">That's So Raven</div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <h1>How it Works</h1>
+
     </body>
 </html>
