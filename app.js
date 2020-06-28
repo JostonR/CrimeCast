@@ -18,15 +18,13 @@ app.get("/", (req, res) => {
 
 
 
-app.get("/all_crimes", async (req, res) => {
+app.post("/all_crimes", async (req, res) => {
     console.log("trying to find crimes");
     selected_state = req.body.state;
     console.log(selected_state);
-
-    var state = selected_state; 
     var front = "https://api.usa.gov/crime/fbi/sapi/api/data/nibrs/all-offenses/offense/states/";
     var end = "/CRIMINAL_ACTIVITY?API_KEY=iiHnOKfno2Mgkt5AynpvPpUQTEyxE77jo1RU8PIv";
-    var api_url = front + "MI" + end;
+    var api_url = front + selected_state + end;
 
     const fetch_response = await fetch(api_url);
     const json = await fetch_response.json();
