@@ -10,8 +10,9 @@ app.listen(3000, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("hello");
+    res.send('./VA.json');
 });
+
 
 
 app.get("/all_crimes", (req, res) => {
