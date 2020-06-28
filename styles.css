@@ -1,0 +1,93 @@
+.header{
+    background: #13B8CE;
+    text-align: center;
+
+    width: 337px;
+    height: 67px;
+
+    font-family: Cabin VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+#background_header{
+    position: absolute;
+    width: 1440px;
+    height: 67px;
+    left: 0px;
+    top: 57px;
+
+    background: #C4C4C4;
+}
+
+#static{
+    position: absolute;
+    left: 73px;
+    top: 57px;
+
+    
+}
+
+#notifications{
+    position: absolute;
+    left: 553px;
+    top: 57px;
+}
+
+#raven{
+    position: absolute;
+    left: 1035px;
+    top: 57px;
+}
+
+.content{
+    background: #1AD079;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#static_content{
+    position: absolute;
+    width: 335px;
+    height: 349px;
+    left: 73px;
+    top: 285px;
+
+    font-family: Tenali Ramakrishna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#notifications_content{
+    position: absolute;
+    width: 335px;
+    height: 349px;
+    left: 564px;
+    top: 285px;
+
+    font-family: Tenali Ramakrishna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#raven_content{
+    position: absolute;
+    width: 335px;
+    height: 349px;
+    left: 1033px;
+    top: 285px;
+
+    font-family: Tenali Ramakrishna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
