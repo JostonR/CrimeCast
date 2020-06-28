@@ -14,6 +14,8 @@ app.listen(3000, () => {
 
 app.get("/", (req, res) => {
     //res.json('./VA.json');
+    console.log("hi");
+    res.send("hello");
 });
 
 
@@ -33,14 +35,14 @@ app.post("/all_crimes", async (req, res) => {
 
 
     //KEERTHANA ADDED THIS PART
-    var fs = require('fs');
+  //  var fs = require('fs');
 
     console.log("\n *STARTING* \n");
 // Get content from file
-     var contents = fs.readFileSync(json);
+    // var contents = fs.readFileSync(json);
 // Define to JSON type
 
-    var jsonContent = JSON.parse(contents);
+    var jsonContent = JSON.parse(json);
 // Get Value from JSON
     res.send("Year:", jsonContent.data_year);
     res.send("Buying&Receiving:", jsonContent.buying__receiving);
