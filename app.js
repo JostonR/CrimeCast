@@ -10,7 +10,7 @@ app.listen(3000, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send('./VA.json');
+    res.json('./VA.json');
 });
 
 
